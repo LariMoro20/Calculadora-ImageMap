@@ -4,7 +4,7 @@ Calculadora desenvolvida com mapeamento de imagem utilizando puramente HTML map,
 
 Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
 
-![imagem](https://github.com/LariMoro20/Calculadora/blob/main/screenshot.png)
+![imagem](https://github.com/LariMoro20/Calculadora-ImageMap/blob/main/screenshot.png)
 
 ## Tecnologias 🚀
 
