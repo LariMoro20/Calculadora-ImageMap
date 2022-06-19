@@ -14,7 +14,7 @@ main {
 }
 
 main {
-    background-image: url('images/fundo2.jpg');
+    background-image: url('../images/fundo2.jpg');
     background-size: cover;
     background-attachment: fixed;
 
