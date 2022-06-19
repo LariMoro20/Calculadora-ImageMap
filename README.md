@@ -20,10 +20,15 @@ Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
 ./
   assets/
     images/
-    styles/
+    style/
     scripts/
  index.html
 
 ```
+
+## Créditos
+
+- [Vista de cima foto criado por tirachardz - br.freepik.com](https://br.freepik.com/fotos-vetores-gratis/vista-de-cima)
+- [Fonte DotGothic16](https://fonts.google.com/specimen/DotGothic16)
 
 Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
