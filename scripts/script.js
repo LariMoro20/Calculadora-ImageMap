@@ -137,14 +137,14 @@ cord.forEach((e) => {
     var Classe = document.createAttribute("class");
     Classe.value = "mapa__item";
     var Href = document.createAttribute("href");
-    Href.value = "#";
+    Href.value = "";
     var Value = document.createAttribute("data-value");
     Value.value = e["val"];
     //Atribuição dos atributos
     Area.setAttributeNode(Forma);
     Area.setAttributeNode(Cord);
     Area.setAttributeNode(Classe);
-    Area.setAttributeNode(Href);
+    //Area.setAttributeNode(Href);
     Area.setAttributeNode(Value);
     //Adição do elemento area ao elemento Mapa
     document.getElementById("Mapa").appendChild(Area);
