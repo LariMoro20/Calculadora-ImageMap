@@ -1,4 +1,4 @@
-# Calculadora Map
+# Calculadora Map :1234:
 
 Calculadora desenvolvida com mapeamento de imagem utilizando puramente HTML map, JavaScript e CSS. Criada para treino de conhecimentos básicos.
 
@@ -26,7 +26,7 @@ Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
 
 ```
 
-## Créditos
+## Créditos :star:
 
 - [Vista de cima foto criado por tirachardz - br.freepik.com](https://br.freepik.com/fotos-vetores-gratis/vista-de-cima)
 - [Fonte DotGothic16](https://fonts.google.com/specimen/DotGothic16)
