@@ -246,6 +246,7 @@
     const mapa__item = document.querySelectorAll(".mapa__item");
     mapa__item.forEach((item) => {
       item.addEventListener("click", () => {
+        alert('clicou',item.getAttribute("data-value"))
         const item_value = item.getAttribute("data-value");
         const item_result = document.getElementById(`result`);
         item_result.innerHTML += item_value;
