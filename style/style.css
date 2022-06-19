@@ -22,6 +22,7 @@ main {
 
 .mapa__item {
     border: 2px solid black;
+    cursor: pointer;
 }
 
 .result__section {
