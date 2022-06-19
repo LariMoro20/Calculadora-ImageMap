@@ -1,81 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="content-language" content="pt-br" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Calculadora</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet" />
   <!--
  <a href="https://br.freepik.com/fotos-vetores-gratis/vista-de-cima">Vista de cima foto criado por tirachardz - br.freepik.com</a> 
     -->
+  <link rel="stylesheet" type="text/css" media="all" href="./style/style.css" />
+  <script defer src="./scripts/script.js"></script>
 </head>
-<style>
-  * {
-    font-family: "DotGothic16", sans-serif;
-  }
-
-  html,
-  body,
-  main {
-    height: 100vh;
-  }
-
-  main {
-    background-image: url('images/fundo2.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-
-  }
-
-  .mapa__item {
-    border: 2px solid black;
-  }
-
-  .result__section {
-    display: flex;
-    justify-content: center;
-  }
-
-  .result__section-item {
-    min-height: 70px;
-    font-size: 40px;
-    width: 250px;
-    /*border: 2px solid black;*/
-    position: absolute;
-    top: 18vh;
-  }
-
-  p {
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden !important;
-  }
-
-  .calculator__section {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-color: #0202028f;
-  }
-
-  .calculator__image {
-    border-style: none;
-    position: inherit;
-    top: 0px;
-    left: 0px;
-    max-height: 80vh;
-    max-width: 100%;
-  }
-</style>
-
 <body>
   <main>
     <div class="text-center result__section">
@@ -89,168 +30,5 @@
     </div>
     </div>
   </main>
-  <script>
-    //Aquisição da resolução da imagem
-    var largura = document.getElementById("calculator").width;
-    var altura = document.getElementById("calculator").height;
-
-    //Definição das coordenadas utilizando as devidas proporções
-    //larg = 500(x)
-    //alt = 676(y)
-    //largcord = x*100/larg
-    //altcord = y*100/alt
-    const cord = [
-      {
-        1: largura * 0.086,
-        2: altura * 0.2875,
-        3: largura * 0.264,
-        4: altura * 0.424,
-        val: 1,
-      },
-      {
-        1: largura * 0.302,
-        2: altura * 0.2875,
-        3: largura * 0.48,
-        4: altura * 0.424,
-        val: 2,
-      },
-      {
-        1: largura * 0.52,
-        2: altura * 0.2875,
-        3: largura * 0.69,
-        4: altura * 0.424,
-        val: 3,
-      },
-      {
-        1: largura * 0.73,
-        2: altura * 0.2875,
-        3: largura * 0.91,
-        4: altura * 0.424,
-        val: "/",
-      },
-      {
-        1: largura * 0.078,
-        2: altura * 0.452,
-        3: largura * 0.25,
-        4: altura * 0.58,
-        val: 4,
-      },
-      {
-        1: largura * 0.3,
-        2: altura * 0.452,
-        3: largura * 0.48,
-        4: altura * 0.58,
-        val: 5,
-      },
-      {
-        1: largura * 0.51,
-        2: altura * 0.452,
-        3: largura * 0.69,
-        4: altura * 0.58,
-        val: 6,
-      },
-      {
-        1: largura * 0.73,
-        2: altura * 0.452,
-        3: largura * 0.91,
-        4: altura * 0.58,
-        val: "x",
-      },
-      {
-        1: largura * 0.073,
-        2: altura * 0.61,
-        3: largura * 0.26,
-        4: altura * 0.74,
-        val: 7,
-      },
-      {
-        1: largura * 0.3,
-        2: altura * 0.61,
-        3: largura * 0.48,
-        4: altura * 0.74,
-        val: 8,
-      },
-      {
-        1: largura * 0.52,
-        2: altura * 0.61,
-        3: largura * 0.69,
-        4: altura * 0.74,
-        val: 9,
-      },
-      {
-        1: largura * 0.73,
-        2: altura * 0.61,
-        3: largura * 0.98,
-        4: altura * 0.74,
-        val: "-",
-      },
-      {
-        1: largura * 0.073,
-        2: altura * 0.77,
-        3: largura * 0.26,
-        4: altura * 0.9,
-        val: 0,
-      },
-      {
-        1: largura * 0.3,
-        2: altura * 0.77,
-        3: largura * 0.48,
-        4: altura * 0.9,
-        val: ".",
-      },
-      {
-        1: largura * 0.51,
-        2: altura * 0.77,
-        3: largura * 0.69,
-        4: altura * 0.9,
-        val: "+",
-      },
-      {
-        1: largura * 0.73,
-        2: altura * 0.77,
-        3: largura * 0.91,
-        4: altura * 0.9,
-        val: "=",
-      },
-    ];
-
-    cord.forEach((e) => {
-      //Junção das coordenadas
-      var cordg =
-        "" + e["1"] + "," + e["2"] + "," + e["3"] + "," + e["4"] + "";
-      //Criação do elemento area
-      var Area = document.createElement("area");
-
-      //Criação dos atributos do elemento area
-      var Forma = document.createAttribute("shape");
-      Forma.value = "rect";
-      var Cord = document.createAttribute("coords");
-      Cord.value = cordg;
-      var Classe = document.createAttribute("class");
-      Classe.value = "mapa__item";
-      var Href = document.createAttribute("href");
-      Href.value = "#";
-      var Value = document.createAttribute("data-value");
-      Value.value = e["val"];
-      //Atribuição dos atributos
-      Area.setAttributeNode(Forma);
-      Area.setAttributeNode(Cord);
-      Area.setAttributeNode(Classe);
-      Area.setAttributeNode(Href);
-      Area.setAttributeNode(Value);
-      //Adição do elemento area ao elemento Mapa
-      document.getElementById("Mapa").appendChild(Area);
-    });
-
-    const mapa__item = document.querySelectorAll(".mapa__item");
-    mapa__item.forEach((item) => {
-      item.addEventListener("click", () => {
-        const item_value = item.getAttribute("data-value");
-        const item_result = document.getElementById(`result`);
-        item_result.innerHTML += item_value;
-      });
-    });
-  </script>
 </body>
-
 </html>

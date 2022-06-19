@@ -1,0 +1,63 @@
+* {
+    font-family: "DotGothic16", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+main {
+    height: 100vh;
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    background-image: url('images/fundo2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.mapa__item {
+    border: 2px solid black;
+}
+
+.result__section {
+    display: flex;
+    justify-content: center;
+}
+
+.result__section-item {
+    min-height: 70px;
+    font-size: 40px;
+    width: 250px;
+    /*border: 2px solid black;*/
+    position: absolute;
+    top: 18vh;
+}
+
+p {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden !important;
+}
+
+.calculator__section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #0202028f;
+}
+
+.calculator__image {
+    border-style: none;
+    position: inherit;
+    top: 0px;
+    left: 0px;
+    max-height: 80vh;
+    max-width: 100%;
+}
