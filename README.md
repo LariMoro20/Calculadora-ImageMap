@@ -1,4 +1,4 @@
-# Calculadora Map :1234:
+# Calculadora Map
 
 Calculadora desenvolvida com mapeamento de imagem utilizando puramente HTML map, JavaScript e CSS. Criada para treino de conhecimentos básicos.
 
@@ -14,7 +14,7 @@ Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </div>
 
-## Organização
+## Organização :card_box:
 
 ```bash
 ./
