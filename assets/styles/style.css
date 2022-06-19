@@ -32,6 +32,10 @@ p, h2 {
     margin: 0;
 }
 
+.centralize {
+    text-align: center;
+}
+
 .mapa__item {
     cursor: pointer;
 }
