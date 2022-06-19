@@ -14,7 +14,7 @@ Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </div>
 
-## Organização :card_box:
+## Organização :card_index_dividers:
 
 ```bash
 ./
