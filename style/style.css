@@ -16,7 +16,6 @@ main {
     background-image: url('../images/fundo2.jpg');
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 .mapa__item {
@@ -35,7 +34,7 @@ main {
     max-width: 100%;
     /*border: 2px solid black;*/
     position: absolute;
-    top: 18vh;
+    top: 8vh;
 }
 
 p {
@@ -49,8 +48,7 @@ p {
     max-width: 100%;
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center;
+
     background-color: #0202028f;
 }
 
