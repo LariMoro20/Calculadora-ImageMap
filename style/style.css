@@ -9,7 +9,6 @@ html,
 body,
 main {
     height: 100vh;
-    height: 100%;
     margin: 0;
 }
 
@@ -21,7 +20,6 @@ main {
 }
 
 .mapa__item {
-    border: 2px solid black;
     cursor: pointer;
 }
 
@@ -34,6 +32,7 @@ main {
     min-height: 70px;
     font-size: 40px;
     width: 250px;
+    max-width: 100%;
     /*border: 2px solid black;*/
     position: absolute;
     top: 18vh;
@@ -47,6 +46,7 @@ p {
 
 .calculator__section {
     height: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
