@@ -1,4 +1,4 @@
-//Aquisição da resolução da imagem
+//Resolução da imagem
 var largura = document.getElementById("calculator").width;
 var altura = document.getElementById("calculator").height;
 
@@ -122,14 +122,15 @@ const cord = [
     },
 ];
 
+//Para cada coordenada, cria a area dos botões
 cord.forEach((e) => {
     //Junção das coordenadas
     var cordg =
         "" + e["1"] + "," + e["2"] + "," + e["3"] + "," + e["4"] + "";
-    //Criação do elemento area
+    //Cria elemento area
     var Area = document.createElement("area");
 
-    //Criação dos atributos do elemento area
+    //Cria os atributos do elemento area
     var Forma = document.createAttribute("shape");
     Forma.value = "rect";
     var Cord = document.createAttribute("coords");
@@ -140,21 +141,30 @@ cord.forEach((e) => {
     Href.value = "";
     var Value = document.createAttribute("data-value");
     Value.value = e["val"];
+
     //Atribuição dos atributos
     Area.setAttributeNode(Forma);
     Area.setAttributeNode(Cord);
     Area.setAttributeNode(Classe);
     //Area.setAttributeNode(Href);
     Area.setAttributeNode(Value);
+
     //Adição do elemento area ao elemento Mapa
     document.getElementById("Mapa").appendChild(Area);
 });
 
-const mapa__item = document.querySelectorAll(".mapa__item");
-mapa__item.forEach((item) => {
-    item.addEventListener("click", () => {
-        const item_value = item.getAttribute("data-value");
-        const item_result = document.getElementById(`result`);
-        item_result.innerHTML += item_value;
+//Observa interação nos botões da calculadora
+const buttons_calculator = document.querySelectorAll(".mapa__item");
+buttons_calculator.forEach((button) => {
+    button.addEventListener("click", () => {
+        const button_value = button.getAttribute("data-value");
+        const area_result = document.getElementById(`result`);
+        area_result.innerHTML += button_value;
     });
+});
+
+const button_clear = document.getElementById(`BtnClear`);
+button_clear.addEventListener("click", () => {
+    const area_result = document.getElementById(`result`);
+    area_result.innerHTML = '';
 });

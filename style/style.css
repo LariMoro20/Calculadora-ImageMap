@@ -12,10 +12,24 @@ main {
     margin: 0;
 }
 
-main {
+body {
     background-image: url('../images/fundo2.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: #ffffffe0;
+}
+
+header {
+    padding: 10px 20px 10px 20px;
+}
+
+p, h2 {
+    margin: 0;
 }
 
 .mapa__item {
@@ -32,13 +46,8 @@ main {
     font-size: 40px;
     width: 250px;
     max-width: 100%;
-    /*border: 2px solid black;*/
     position: absolute;
-    top: 8vh;
-}
-
-p {
-    margin: 0;
+    top: 20.2vh;
     white-space: nowrap;
     overflow: hidden !important;
 }
@@ -49,7 +58,6 @@ p {
     display: flex;
     justify-content: center;
 
-    background-color: #0202028f;
 }
 
 .calculator__image {
@@ -57,6 +65,16 @@ p {
     position: inherit;
     top: 0px;
     left: 0px;
-    max-height: 80vh;
-    max-width: 100%;
+    max-height: 70vh;
+    max-width: 90%;
+}
+
+.calculator__clear-btn {
+    background-color: #515359;
+    border-color: #616268;
+    padding: 6px;
+    border-radius: 9px;
+    width: 200px;
+    color: white;
+    margin: 5px;
 }
