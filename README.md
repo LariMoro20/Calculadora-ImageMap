@@ -20,7 +20,7 @@ Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
 ./
   assets/
     images/
-    style/
+    styles/
     scripts/
  index.html
 
