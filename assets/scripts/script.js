@@ -222,23 +222,23 @@ function calcule() {
         var numbers = new String(expression.split('+'))
         n1 = numbers.substring(0, numbers.indexOf(','));
         n2 = numbers.substring(numbers.indexOf(',') + 1, numbers.length)
-        final_result = parseFloat(n1) + parseFloat(n2);
+        final_result = (parseFloat(n1) + parseFloat(n2)).toFixed(2);
     } else if (expression.includes('-')) {
         var numbers = new String(expression.split('-'))
         n1 = numbers.substring(0, numbers.indexOf(','));
         n2 = numbers.substring(numbers.indexOf(',') + 1, numbers.length)
-        final_result = parseFloat(n1) - parseFloat(n2);
+        final_result = (parseFloat(n1) - parseFloat(n2)).toFixed(2);
     } else if (expression.includes('*')) {
         var numbers = new String(expression.split('*'))
         n1 = numbers.substring(0, numbers.indexOf(','));
         n2 = numbers.substring(numbers.indexOf(',') + 1, numbers.length)
-        final_result = parseFloat(n1) * parseFloat(n2);
+        final_result = (parseFloat(n1) * parseFloat(n2)).toFixed(2);
 
     } else if (expression.includes('/')) {
         var numbers = new String(expression.split('/'))
         n1 = numbers.substring(0, numbers.indexOf(','));
         n2 = numbers.substring(numbers.indexOf(',') + 1, numbers.length)
-        final_result = parseFloat(n1) / parseFloat(n2);
+        final_result = (parseFloat(n1) / parseFloat(n2)).toFixed(2);
     }
     result_area.innerHTML = final_result;
     has_operation = false
