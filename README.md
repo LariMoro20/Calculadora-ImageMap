@@ -28,7 +28,9 @@ Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
 
 ## Créditos :star:
 
-- [Vista de cima foto criado por tirachardz - br.freepik.com](https://br.freepik.com/fotos-vetores-gratis/vista-de-cima)
+- [Calculator by oksmith](https://openclipart.org/detail/326584/calculator)
+- [Vista de cima foto por tirachardz - br.freepik.com](https://br.freepik.com/fotos-vetores-gratis/vista-de-cima)
+- [Business icons vetor por macrovector_official - br.freepik.com](https://br.freepik.com/fotos-vetores-gratis/business-icons)
 - [Fontes Google DotGothic16](https://fonts.google.com/specimen/DotGothic16)
 - [Fontes Google Montserrat](https://fonts.googleapis.com/css2?family=Montserrat)
 
