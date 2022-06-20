@@ -54,7 +54,7 @@ p, h1 {
     width: 250px;
     max-width: 100%;
     position: absolute;
-    top: 23vh;
+    top: 19vh;
     white-space: nowrap;
     overflow: hidden !important;
     font-family: "DotGothic16", sans-serif;
@@ -108,7 +108,7 @@ footer a {
 
 @media only screen and (max-width: 600px) {
     .result__section-item {
-        top: 23vh;
+        top: 20vh;
     }
 
 
