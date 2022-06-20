@@ -9,7 +9,7 @@ const clear_button = document.getElementById(`ClearBtn`); //Botão de limpar
 var largura = document.getElementById("calculator").width;
 var altura = document.getElementById("calculator").height;
 
-//---Mapeamento dos botões da calculadora
+//Mapeamento dos botões da calculadora
 /*
 Definição das coordenadas utilizando as devidas proporções:
 larg = 500(x)
