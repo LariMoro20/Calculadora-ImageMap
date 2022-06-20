@@ -30,5 +30,6 @@ Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
 
 - [Vista de cima foto criado por tirachardz - br.freepik.com](https://br.freepik.com/fotos-vetores-gratis/vista-de-cima)
 - [Fontes Google DotGothic16](https://fonts.google.com/specimen/DotGothic16)
+- [Fontes Google Montserrat](https://fonts.googleapis.com/css2?family=Montserrat)
 
 Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
