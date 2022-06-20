@@ -65,10 +65,8 @@ p, h2 {
 }
 
 .calculator__image {
-    border-style: none;
-    position: inherit;
-    top: 0px;
-    left: 0px;
+    width: auto;
+    height: auto;
     max-height: 70vh;
     max-width: 90%;
 }
