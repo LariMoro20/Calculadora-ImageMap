@@ -1,5 +1,5 @@
 * {
-    font-family: "DotGothic16", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -54,6 +54,7 @@ p, h2 {
     top: 17.5vh;
     white-space: nowrap;
     overflow: hidden !important;
+    font-family: "DotGothic16", sans-serif;
 }
 
 .calculator__section {
@@ -80,3 +81,22 @@ p, h2 {
     color: white;
     margin: 5px;
 }
+
+footer {
+    padding: 20px 0px 10px 0px;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.social {
+    margin-bottom: 10px;
+}
+
+.copy {}
