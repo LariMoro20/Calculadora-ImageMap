@@ -108,6 +108,6 @@ footer a {
 
 @media only screen and (max-width: 600px) {
     .result__section-item {
-        top: 16vh;
+        top: 14vh;
     }
 }
