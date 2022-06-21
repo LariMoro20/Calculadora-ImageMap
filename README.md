@@ -1,6 +1,6 @@
 # Calculadora Map
 
-Calculadora desenvolvida com mapeamento de imagem utilizando puramente HTML map, JavaScript e CSS. Criada para treino de conhecimentos básicos.
+Calculadora desenvolvida com mapeamento de imagem utilizando puramente HTML map, JavaScript e CSS.
 
 Para visualizar a aplicação: https://calculator-mapimg-larisantos.vercel.app/
 
